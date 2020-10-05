@@ -1,0 +1,4 @@
+.idea
+.DS_Store
+docker/volumes/serviio/*
+!docker/volumes/serviio/.gitkeep
