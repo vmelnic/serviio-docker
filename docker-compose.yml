@@ -9,12 +9,9 @@ services:
   serviio:
     container_name: 'serviio'
     hostname: 'serviio'
-
     build:
       context: './docker'
-
     volumes:
       - ./docker/volumes/serviio:/opt/serviio
       - ./docker/volumes/media:/media/serviio
-
     network_mode: "host"

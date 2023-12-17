@@ -1,5 +1,4 @@
-FROM ubuntu:20.04
-MAINTAINER vmelnic "win32hack@gmail.com"
+FROM ubuntu:22.04
 
 COPY ./entrypoint.sh /usr/local/bin/entrypoint.sh
 
